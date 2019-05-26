@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-size:14px; font-family:  arial; color:#555;}
+
+/*************大圣插件模块begin*************/
+/*工具栏*/
+.ds_tool_bar {
+	width:400px;
+	height:20px;
+	margin:20px;
+}
+/*按钮左*/
+.ds_prev_btn {
+	width:15px;
+	height:16px;
+	cursor:pointer;
+	float:left;
+	background: #CCCCCC url(../images/back.jpg) no-repeat;
+}
+/*按钮右*/
+.ds_next_btn {
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	float:left;
+	background: #CCCCCC url(../images/next.jpg) no-repeat;
+}
+/*主容器*/
+#mainBox {
+	margin:20px;
+	padding:20px;
+	width:774px;
+	height:574px;
+	background:url(../images/bg.gif) no-repeat;
+}
+/*角块*/
+.cornerBox {
+	width:130px;
+	height:138px;
+	background:#E6E6E6;
+	margin-right:8px;
+	margin-bottom:8px;
+	float:left;
+}
+/*边块*/
+*html .sideBox {
+	width:148px;
+	height:135px;
+	background:#E6E6E6;
+	margin-right:8px;
+	margin-bottom:8px;
+	float:left;
+}
+/*边块*/
+.sideBox {
+	width:146px;
+	height:135px;
+	background:#E6E6E6;
+	margin-right:8px;
+	margin-bottom:8px;
+	float:left;
+}
+/*中块*/
+.centerBox {
+	width:633px;
+	height:429px;
+	background:#E6E6E6;
+	margin-right:1px;
+	margin-bottom:8px;
+	float:right;
+}
+/*图块*/
+.picBox {
+	width:98px;
+	height:98px;
+	position:absolute;
+	cursor:pointer;
+	overflow:hidden;
+}
+/*************大圣插件模块end*************/

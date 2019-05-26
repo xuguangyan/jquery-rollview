@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-size:14px; font-family:  arial; color:#555;}
+
+/*************大圣插件模块begin*************/
+/*工具栏*/
+.ds_tool_bar {
+	width:400px;
+	height:20px;
+	margin:20px;
+}
+/*按钮左*/
+.ds_prev_btn {
+	width:15px;
+	height:16px;
+	cursor:pointer;
+	float:left;
+	background: #CCCCCC url(../images/back.jpg) no-repeat;
+}
+/*按钮右*/
+.ds_next_btn {
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	float:left;
+	background: #CCCCCC url(../images/next.jpg) no-repeat;
+}
+/*主容器*/
+#mainBox {
+	margin:20px;
+	width:400px;
+	height:300px;
+	border:1px solid #FF6633;
+}
+/*角块*/
+.cornerBox {
+	width:98px;
+	height:98px;
+	border:1px solid #FF6633;
+	background:#FF9966;
+	float:left;
+	text-align:center;
+	line-height:98px;
+	cursor:pointer;
+}
+/*边块*/
+.sideBox {
+	width:198px;
+	height:98px;
+	border:1px solid #FF6633;
+	background:#FF9966;
+	float:left;
+	text-align:center;
+	line-height:98px;
+	cursor:pointer;
+}
+/*中块*/
+.centerBox {
+	width:198px;
+	height:98px;
+	border:1px solid #FF6633;
+	background:#F2F2F2;
+	float:left;
+	text-align:center;
+	line-height:98px;
+}
+/*图块*/
+.picBox {
+	width:98px;
+	height:98px;
+	border:1px solid #FF6633;
+	background:#FF99CC;
+	position:absolute;
+	left:20px;
+	top:60px;
+}
+/*************大圣插件模块end*************/

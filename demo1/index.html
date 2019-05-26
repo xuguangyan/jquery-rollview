@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大圣轮滚图片特效--RollView</title>
+<link rel="stylesheet" type="text/css" href="css/rollview.css" />
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.rollview.js"></script>
+<script language="javascript">
+$(document).ready(function(){
+	$("#mainBox").rollview({
+		count	:9,			//方块个数:(必填) 默认值:0
+		direct	:"next",	//方向:"prev"|"" 默认值:"next"
+		speed	:500,		//显示速度:(毫秒数) 默认值:300
+		auto	:true,		//自动滚动:true|false 默认值:false
+		delay	:3			//自滚延时:(秒) 默认值:1
+	});
+});
+</script>
+</head>
+
+<body>
+<img src="images/photo_b_1.jpg" style="display:none" />
+<img src="images/photo_b_2.jpg" style="display:none" />
+<img src="images/photo_b_3.jpg" style="display:none" />
+<img src="images/photo_b_4.jpg" style="display:none" />
+<img src="images/photo_b_5.jpg" style="display:none" />
+<img src="images/photo_b_6.jpg" style="display:none" />
+<img src="images/photo_b_7.jpg" style="display:none" />
+<img src="images/photo_b_8.jpg" style="display:none" />
+<img src="images/photo_b_9.jpg" style="display:none" />
+<img src="images/photo_s_1.jpg" style="display:none" />
+<img src="images/photo_s_2.jpg" style="display:none" />
+<img src="images/photo_s_3.jpg" style="display:none" />
+<img src="images/photo_s_4.jpg" style="display:none" />
+<img src="images/photo_s_5.jpg" style="display:none" />
+<img src="images/photo_s_6.jpg" style="display:none" />
+<img src="images/photo_s_7.jpg" style="display:none" />
+<img src="images/photo_s_8.jpg" style="display:none" />
+<img src="images/photo_s_9.jpg" style="display:none" />
+<div class="ds_tool_bar">
+	<div class="ds_prev_btn" id="prev_btn">&nbsp;</div><div class="ds_next_btn" id="next_btn">&nbsp;</div>
+</div>
+<div id="mainBox">
+	<div id="zone_5" class="sideBox"></div>
+	<div id="zone_4" class="sideBox"></div>
+	<div id="zone_3" class="sideBox"></div>
+	<div id="zone_2" class="sideBox"></div>
+	<div id="zone_1" class="sideBox"></div>
+	<div id="zone_0" class="centerBox"></div>
+	<div id="zone_6" class="cornerBox"></div>
+	<div id="zone_7" class="cornerBox"></div>
+	<div id="zone_8" class="cornerBox"></div>
+	
+	<div id="box_0" class="picBox"></div>
+	<div id="box_1" class="picBox"></div>
+	<div id="box_2" class="picBox"></div>
+	<div id="box_3" class="picBox"></div>
+	<div id="box_4" class="picBox"></div>
+	<div id="box_5" class="picBox"></div>
+	<div id="box_6" class="picBox"></div>
+	<div id="box_7" class="picBox"></div>
+	<div id="box_8" class="picBox"></div>
+</div>
+</body>
+</html>
